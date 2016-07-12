@@ -6,10 +6,14 @@ It uses the base image https://hub.docker.com/r/geographica/postgis and https://
 
 ## Usage
 
+Create the container:
+```bash
 docker run --name pgsql-fdq-mysql -d  geographica/postgis-fdw-mysql
-
+```
+Load extensions:
+```
 docker exec -it pgsql-fdq-mysql psql -U postgres
-
+```
 -- load extension PostGIS
 
     CREATE EXTENSION postgis;
