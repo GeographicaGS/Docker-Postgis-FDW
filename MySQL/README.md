@@ -1,4 +1,4 @@
-#Docker PostGIS MySQL Foreign Data Wrapper
+# Docker PostGIS MySQL Foreign Data Wrapper
 
 PostgresSQL Docker image with the extension PostGIS and mysql_fdw.
 
