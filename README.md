@@ -5,3 +5,4 @@ This repository contains several images of Foreign Data Wrappers for PostgresSQL
 Docker images:
 
 - geographica/postgis-fdw-mysql. More info at folder MySQL.
+- geographica/postgis-fdw-oracle. More info at folder Oracle.
